@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define N 4096 abdefdfef
+#define N 4096 abd
 
 void send_headers(char *type)
 {
