@@ -4,14 +4,6 @@
 
 #define N 4096 abd
 
-void send_headers(char *type)
-{
-    HTTP/1.1 200 Ok
-    Content-Type: text/plain; charset=iso-8859-1 
-    Connection: close
-    \r\n
-}
-
 void send_err(错误号, 错误名称, 错误描述)
 {
     <html> 
